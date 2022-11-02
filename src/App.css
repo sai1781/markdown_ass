@@ -1,0 +1,48 @@
+.App {
+  width: 100vw ;
+  height: 100vh;
+  border: 2px solid red;
+}
+.App_input{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 80%;
+  align-content: center;
+  text-align: center;
+  /* border: 2px solid red; */
+
+}
+.same{
+  height: 80%;
+  width: 40%;
+  margin-top: 2rem;
+  /* display: flex; */
+  /* flex-direction: column; */  
+}  
+.textarea{
+  border: 2px solid black;
+  min-width: 95%;
+  max-width: 95%;
+  max-height:100%;
+  min-height: 100%;
+} 
+
+.output_textarea{
+  background-color: #f1f5f8;
+  box-shadow: 1px 1px 5px  rgba(0,0,0,0.5);
+
+}
+.input_textarea{
+  min-width: 99%;
+  max-width: 98%;
+  min-height: 99%;
+  max-height: 99%;
+  overflow-y: scroll;
+  font-size: 2rem;
+  box-shadow: 1px 1px 10px  rgba(0,0,0,0.5);
+}
+
+
